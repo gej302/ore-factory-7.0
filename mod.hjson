@@ -1,7 +1,5 @@
-{
   name: "Ore-Factory (7.0)",
   author: "Wrong", "Girard"
   description: "Makes ores  from other ores.  Updated for 6.0, based on Wrong original mod.",
   version: "1.0.3"
   minGameVersion: 138
-}

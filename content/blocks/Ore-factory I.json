@@ -1,0 +1,22 @@
+{
+    "type": "GenericCrafter",
+    "name": "Ore-factory 1",
+    "description": "Copper makes lead.",
+    "size": 1,
+    "outputItem": {"item": "lead", "amount": 1},
+    "hasLiquids": false,
+    "craftTime": 0,
+    "consumes": {
+        "items": {
+            "items": [
+                { "item": "copper", "amount": 2 }
+            ],
+            "optional": false
+        }
+    },
+    "requirements":[
+        { "item": "copper", "amount": 50 }
+    ],
+    "category": "crafting",
+    "research": "Ore-factory 0"
+}

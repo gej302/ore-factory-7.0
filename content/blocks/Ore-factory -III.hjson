@@ -4,7 +4,7 @@
     "description": "Titanium makes lead.",
     "size": 1,
     "outputItem": {"item": "lead", "amount": 2},
-    "craftTime": 0.1,
+    "craftTime": 1,
     "consumes": {
         "items": {
             "items": [

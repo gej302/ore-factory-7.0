@@ -4,7 +4,7 @@
     "description": "Copper makes lead.",
     "size": 1,
     "outputItem": {"item": "lead", "amount": 1},
-    "craftTime": 0.1,
+    "craftTime": 1,
     "consumes": {
         "items": {
             "items": [

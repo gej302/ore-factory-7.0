@@ -8,7 +8,7 @@
     "consumes": {
         "items": {
             "items":[
-                { "item": "", "amount": 4 }
+                { "item": "beryllium", "amount": 4 }
             ],
         }
     },

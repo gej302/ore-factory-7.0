@@ -13,7 +13,7 @@
         }
     },
     "requirements":[
-        { "item": "Tungsten", "amount": 50 }
+        { "item": "tungsten", "amount": 50 }
     ],
     "category": "crafting",
     "research": "impactDrill"

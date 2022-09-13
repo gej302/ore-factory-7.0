@@ -17,7 +17,7 @@
     ],
     "category": "crafting",
     research: { 
-			parent: coreBastion
+			parent: impact-drill
 			requirements: [
 				tungsten/200
 				silicon/2000

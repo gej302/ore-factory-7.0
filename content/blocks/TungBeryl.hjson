@@ -16,5 +16,11 @@
         { "item": "tungsten", "amount": 50 }
     ],
     "category": "crafting",
-    "research": "impactDrill"
+    research: { 
+			parent: impactDrill
+			requirements: [
+				tungsten/200
+				silicon/2000
+			]
+		} 
 }

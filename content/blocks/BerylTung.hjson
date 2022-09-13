@@ -16,5 +16,11 @@
         { "item": "beryllium", "amount": 50 }
     ],
     "category": "crafting",
-    "research": "plasmaBore"
+    research: { 
+			parent: plasmaBore
+			requirements: [
+				beryllium/200
+				graphite/2000
+			]
+		}    
 }

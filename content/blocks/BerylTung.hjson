@@ -17,7 +17,7 @@
     ],
     "category": "crafting",
     research: { 
-			parent: plasmaBore
+			parent: coreBastion
 			requirements: [
 				beryllium/200
 				graphite/2000

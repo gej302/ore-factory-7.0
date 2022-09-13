@@ -1,0 +1,20 @@
+{
+    "type": "GenericCrafter",
+    "name": "Beryl Tungstenator",
+    "description": "4 Beryllium makes 1 tungsten",
+    "size": 1,
+    "outputItem": {"item": "tungsten", "amount": 1},
+    "craftTime": 1,
+    "consumes": {
+        "items": {
+            "items":[
+                { "item": "", "amount": 4 }
+            ],
+        }
+    },
+    "requirements":[
+        { "item": "beryllium", "amount": 50 }
+    ],
+    "category": "crafting",
+    "research": "plasmaBore"
+}

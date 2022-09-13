@@ -1,0 +1,20 @@
+{
+    "type": "GenericCrafter",
+    "name": "Tungsten Beryllizer",
+    "description": "1 tungsten makes 4 Beryllium",
+    "size": 1,
+    "outputItem": {"item": "beryllium", "amount": 4},
+    "craftTime": 1,
+    "consumes": {
+        "items": {
+            "items":[
+                { "item": "tungsten", "amount": 1 }
+            ],
+        }
+    },
+    "requirements":[
+        { "item": "Tungsten", "amount": 50 }
+    ],
+    "category": "crafting",
+    "research": "impactDrill"
+}

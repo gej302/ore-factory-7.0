@@ -3,12 +3,12 @@
     "name": "Sand Beryllizer",
     "description": "Sand to Beryllium compressor",
     "size": 1,
-    "outputItem": {"item": "sand", "amount": 4},
+    "outputItem": {"item": "beryllium", "amount": 1},
     "craftTime": 1,
     "consumes": {
         "items": {
             "items":[
-                { "item": "beryllium", "amount": 1 }
+                { "item": "sand", "amount": 4 }
             ],
         }
     },

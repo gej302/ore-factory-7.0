@@ -1,0 +1,26 @@
+{
+    "type": "GenericCrafter",
+    "name": "Graphite Beryllizer",
+    "description": "Graphite to Beryllium converter",
+    "size": 1,
+    "outputItem": {"item": "beryllium", "amount": 1},
+    "craftTime": 1,
+    "consumes": {
+        "items": {
+            "items":[
+                { "item": "graphite", "amount": 1 }
+            ],
+        }
+    },
+    "requirements":[
+        { "item": "beryllium", "amount": 50 }
+    ],
+    "category": "crafting",
+    research: { 
+			parent: cliff-crusher
+			requirements: [
+				beryllium/200
+				graphite/2000
+			]
+		}    
+}

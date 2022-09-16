@@ -1,0 +1,26 @@
+{
+    "type": "GenericCrafter",
+    "name": "Sand Beryllizer",
+    "description": "Sand to Beryllium compressor",
+    "size": 1,
+    "outputItem": {"item": "sand", "amount": 4},
+    "craftTime": 1,
+    "consumes": {
+        "items": {
+            "items":[
+                { "item": "beryllium", "amount": 1 }
+            ],
+        }
+    },
+    "requirements":[
+        { "item": "beryllium", "amount": 50 }
+    ],
+    "category": "crafting",
+    research: { 
+			parent: cliff-crusher
+			requirements: [
+				beryllium/200
+				graphite/2000
+			]
+		}    
+}

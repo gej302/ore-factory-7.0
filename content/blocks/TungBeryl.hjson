@@ -20,7 +20,7 @@
 			parent: impact-drill
 			requirements: [
 				tungsten/200
-				silicon/2000
+				silicon/200
 			]
 		} 
 }

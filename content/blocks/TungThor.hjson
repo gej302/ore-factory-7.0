@@ -1,0 +1,26 @@
+{
+    "type": "GenericCrafter",
+    "name": "Tungsten Irradiator",
+    "description": "4 tungsten makes 1 Thorium",
+    "size": 1,
+    "outputItem": {"item": "thorium", "amount": 1},
+    "craftTime": 1,
+    "consumes": {
+        "items": {
+            "items":[
+                { "item": "tungsten", "amount": 4 }
+            ],
+        }
+    },
+    "requirements":[
+        { "item": "tungsten", "amount": 50 }
+    ],
+    "category": "crafting",
+    research: { 
+			parent: impact-drill
+			requirements: [
+				tungsten/200
+				silicon/200
+			]
+		} 
+}

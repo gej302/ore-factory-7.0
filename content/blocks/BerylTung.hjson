@@ -20,7 +20,7 @@
 			parent: plasma-bore
 			requirements: [
 				beryllium/200
-				graphite/2000
+				graphite/200
 			]
 		}    
 }

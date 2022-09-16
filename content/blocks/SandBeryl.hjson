@@ -8,7 +8,7 @@
     "consumes": {
         "items": {
             "items":[
-                { "item": "sand", "amount": 4 }
+                { "item": "sand", "amount": 3 }
             ],
         }
     },
@@ -20,7 +20,7 @@
 			parent: cliff-crusher
 			requirements: [
 				beryllium/200
-				graphite/2000
+				graphite/200
 			]
 		}    
 }

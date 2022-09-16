@@ -13,7 +13,7 @@
         }
     },
     "requirements":[
-        { "item": "beryllium", "amount": 50 }
+        { "item": "graphite", "amount": 50 }
     ],
     "category": "crafting",
     research: { 

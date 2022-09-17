@@ -1,14 +1,14 @@
 {
     "type": "GenericCrafter",
-    "name": "Beryllium Graphitizer",
-    "description": "Beryllium to Graphite converter",
+    "name": "Beryllium Pulverizer",
+    "description": "Beryllium crushed into sand",
     "size": 1,
-    "outputItem": {"item": "graphite", "amount": 1},
+    "outputItem": {"item": "sand", "amount": 3},
     "craftTime": 1,
     "consumes": {
         "items": {
             "items":[
-                { "item": "beryllium", "amount": 1 }
+                { "item": "sand", "amount": 3 }
             ],
         }
     },

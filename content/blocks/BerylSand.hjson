@@ -12,7 +12,7 @@
             ],
         }
     },
-    maxHealth:200,
+    Health:200,
     "requirements":[
         { "item": "beryllium", "amount": 50 }
     ],

@@ -12,6 +12,7 @@
             ],
         }
     },
+    health:200,
     "requirements":[
         { "item": "coal", "amount": 50 }
     ],

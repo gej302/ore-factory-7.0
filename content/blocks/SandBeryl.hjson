@@ -12,6 +12,7 @@
             ],
         }
     },
+    health:200,
     "requirements":[
         { "item": "beryllium", "amount": 50 }
     ],

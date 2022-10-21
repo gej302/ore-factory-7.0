@@ -1,0 +1,24 @@
+name: Coal Liquifier
+description: Change coal into oil (reverse centrifuge).
+type: Fracker
+size: 2
+baseEfficiency: 5
+rotateSpeed: 10
+hasPower: false
+itemCapacity: 40
+requirements: [
+  titanium/20
+  copper/20
+  lead/15
+]
+consumes: 
+{
+  items: {
+    items: [
+      coal/20
+    ]
+  }
+}
+result: oil
+category: crafting
+research: coal-centrifuge

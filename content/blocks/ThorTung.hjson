@@ -1,0 +1,27 @@
+{
+    "type": "GenericCrafter",
+    "name": "Thorium Splitter",
+    "description": "1 thorium makes 4 tungsten",
+    "size": 1,
+    "outputItem": {"item": "tungsten", "amount": 4},
+    "craftTime": 1,
+    "consumes": {
+        "items": {
+            "items":[
+                { "item": "thorium", "amount": 1 }
+            ],
+        }
+    },
+    health:200,
+    "requirements":[
+        { "item": "thorium", "amount": 50 }
+    ],
+    "category": "crafting",
+    research: { 
+			parent: impact-drill
+			requirements: [
+				thorium/200
+				tungsten/200
+			]
+		} 
+}
